@@ -1,0 +1,49 @@
+[0.066s] Invoking command in '/home/yusen/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yusen/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yusen/dev_ws/install/my_package
+[0.399s] -- The C compiler identification is GNU 13.3.0
+[0.994s] -- The CXX compiler identification is GNU 13.3.0
+[1.228s] -- Detecting C compiler ABI info
+[2.097s] -- Detecting C compiler ABI info - done
+[2.133s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.133s] -- Detecting C compile features
+[2.134s] -- Detecting C compile features - done
+[2.341s] -- Detecting CXX compiler ABI info
+[2.981s] -- Detecting CXX compiler ABI info - done
+[2.987s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.987s] -- Detecting CXX compile features
+[2.988s] -- Detecting CXX compile features - done
+[2.991s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.206s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.275s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.345s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.468s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.468s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.471s] -- Added test 'lint_cmake' to check CMake code style
+[3.471s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.471s] -- Added test 'xmllint' to check XML markup files
+[3.475s] -- Configuring done (3.4s)
+[3.476s] -- Generating done (0.0s)
+[3.479s] -- Build files have been written to: /home/yusen/dev_ws/build/my_package
+[3.525s] Invoked command in '/home/yusen/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yusen/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yusen/dev_ws/install/my_package
+[3.562s] Invoking command in '/home/yusen/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yusen/dev_ws/build/my_package -- -j8 -l8
+[3.800s] Invoked command in '/home/yusen/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yusen/dev_ws/build/my_package -- -j8 -l8
+[3.801s] Invoking command in '/home/yusen/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yusen/dev_ws/build/my_package
+[3.808s] -- Install configuration: ""
+[3.808s] -- Execute custom install script
+[3.810s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/my_package/launch/listener.launch.py
+[3.821s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/my_package/launch/talker.launch.py
+[3.830s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[3.871s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[3.940s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[3.961s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[4.059s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/my_package/environment/path.sh
+[4.098s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/my_package/environment/path.dsv
+[4.133s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/my_package/local_setup.bash
+[4.143s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/my_package/local_setup.sh
+[4.163s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/my_package/local_setup.zsh
+[4.241s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/my_package/local_setup.dsv
+[4.292s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/my_package/package.dsv
+[4.368s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[4.423s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[4.442s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[4.458s] -- Symlinking: /home/yusen/dev_ws/install/my_package/share/my_package/package.xml
+[4.539s] Invoked command in '/home/yusen/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yusen/dev_ws/build/my_package
