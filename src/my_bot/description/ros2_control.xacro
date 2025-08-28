@@ -26,28 +26,10 @@
 
     </ros2_control>
 
-    <!-- <gazebo> -->
-        <!-- <plugin filename="libgz_ros2_control-system.so" name="gz_ros2_control"> -->
-        <!-- <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin"> -->
-        <!-- <plugin filename="libgz_ros2_control-system.so" name="gz_ros2_control::GazeboSimROS2ControlPlugin"> -->
-            <!-- <parameters>$(find my_bot)/config/my_controllers.yaml</parameters> -->
-        <!-- </plugin> -->
-    <!-- </gazebo> -->
-
-    <!-- <gazebo>
-        <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-        <parameters>$(find my_bot)/config/diff_controller.yaml</parameters>
-        </plugin>
-    </gazebo> -->
-
     <gazebo>
-    <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-      <parameters>$(find my_bot)/config/diff_controller.yaml</parameters>
-      <!-- <ros>
-        <remapping>/diff_drive_controller/reference:=/cmd_vel</remapping>
-        <remapping>/diff_drive_controller/odom:=/odom</remapping>
-      </ros> -->
-    </plugin>
-  </gazebo>
+        <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+            <parameters>$(find my_bot)/config/diff_controller.yaml</parameters>
+        </plugin>
+    </gazebo>
 
 </robot>
