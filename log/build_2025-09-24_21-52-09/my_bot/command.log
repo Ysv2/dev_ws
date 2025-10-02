@@ -1,0 +1,1 @@
+Invoking command in '/home/yusen/dev_ws/build/my_bot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yusen/dev_ws/build/my_bot -- -j16 -l16
