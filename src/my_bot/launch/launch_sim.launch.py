@@ -35,19 +35,19 @@ def generate_launch_description():
                 )]), launch_arguments={'use_sim_time': 'true', 'use_ros2_control': 'true'}.items()
     )
 
-    # joystick = IncludeLaunchDescription(
-    #             PythonLaunchDescriptionSource([os.path.join(
-    #                 get_package_share_directory(package_name),'launch','joystick.launch.py'
-    #             )]), launch_arguments={'use_sim_time': 'true'}.items()
-    # )
+    joystick = IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([os.path.join(
+                    get_package_share_directory(package_name),'launch','joystick.launch.py'
+                )]), launch_arguments={'use_sim_time': 'true'}.items()
+    )
 
-    # twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
-    # twist_mux = Node(
-    #         package="twist_mux",
-    #         executable="twist_mux",
-    #         parameters=[twist_mux_params, {'use_sim_time': True}],
-    #         remappings=[('/cmd_vel_out','/diff_drive_controller/cmd_vel_unstamped')]
-    #     )
+    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
+    twist_mux = Node(
+            package="twist_mux",
+            executable="twist_mux",
+            parameters=[twist_mux_params, {'use_sim_time': True}],
+            remappings=[('/cmd_vel_out','/cmd_vel')]
+        )
 
 
     default_world = os.path.join(
@@ -144,8 +144,8 @@ def generate_launch_description():
     # Launch them all!
     return LaunchDescription([
         rsp,
-        # joystick,
-        # twist_mux,
+        joystick,
+        twist_mux,
         world_arg,
         gazebo,
         spawn_entity,

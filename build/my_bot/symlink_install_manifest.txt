@@ -1,10 +1,13 @@
 /home/yusen/dev_ws/install/my_bot/share/my_bot/config/diff_controller.yaml
 /home/yusen/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
 /home/yusen/dev_ws/install/my_bot/share/my_bot/config/gz_bridge.yaml
+/home/yusen/dev_ws/install/my_bot/share/my_bot/config/joystick.yaml
+/home/yusen/dev_ws/install/my_bot/share/my_bot/config/twist_mux.yaml
 /home/yusen/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
 /home/yusen/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
 /home/yusen/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
 /home/yusen/dev_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+/home/yusen/dev_ws/install/my_bot/share/my_bot/launch/joystick.launch.py
 /home/yusen/dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
 /home/yusen/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
 /home/yusen/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
