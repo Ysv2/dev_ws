@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a254b06eaafcb1a4dace.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "serial_motor_demo_msgs__py",
+					"jsonFile" : "directory-serial_motor_demo_msgs__py-1a345271696665aa77f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/yusen/dev_ws/build/serial_motor_demo_msgs/serial_motor_demo_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "serial_motor_demo_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_serial_motor_demo_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_serial_motor_demo_msgs_egg-0f9ae8dbdfba7d5cc3e5.json",
+					"name" : "ament_cmake_python_build_serial_motor_demo_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_serial_motor_demo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_serial_motor_demo_msgs-37b1e63cf2229586483f.json",
+					"name" : "ament_cmake_python_symlink_serial_motor_demo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs-3ac80564204f8de44225.json",
+					"name" : "serial_motor_demo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__cpp-3caf361d87bf51640482.json",
+					"name" : "serial_motor_demo_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "serial_motor_demo_msgs__py::@593108ce96a6b0e1e25b",
+					"jsonFile" : "target-serial_motor_demo_msgs__py-0b247bd110b9fc26280c.json",
+					"name" : "serial_motor_demo_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_generator_c-86fa62eb78dcf457e33d.json",
+					"name" : "serial_motor_demo_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_generator_py-87bfbeb7aa87a2410373.json",
+					"name" : "serial_motor_demo_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_generator_type_description-0e48d486987f063d3f2c.json",
+					"name" : "serial_motor_demo_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_c-a39d92e7b0eba80ad5af.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_cpp-984f5d5a0248cad6bf7c.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c-a89007e18beaf5db1d8c.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp-e3558ca6e1e9969eb0bb.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_introspection_c-82853ac60b4ad12dad9c.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp-cf78418d0076ed86bd32.json",
+					"name" : "serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs_s__rosidl_typesupport_c-bcc2df9abdd391b7450c.json",
+					"name" : "serial_motor_demo_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c-74686616abe3766724ce.json",
+					"name" : "serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c-560fcdf3716854c4a06c.json",
+					"name" : "serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_demo_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_demo_msgs_uninstall-35b0e9e4ed5a3ff65c47.json",
+					"name" : "serial_motor_demo_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-18c95666ae14aa107439.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yusen/dev_ws/build/serial_motor_demo_msgs",
+		"source" : "/home/yusen/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
